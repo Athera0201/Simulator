@@ -1,0 +1,42 @@
+﻿生成启动时间为 2018/2/11 9:43:36。
+     1>项目“C:\simulatorProject\sim\sim\sim\sim.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp
+         main.cpp
+     1>c:\simulatorproject\sim\sim\Definition.h(83): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\simulatorproject\sim\sim\Definition.h(85): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>..\main.cpp(125): warning C4778: 'printf' : unterminated format string '%\n'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\simulatorProject\sim\sim\Release\sim.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\simulatorProject\sim\sim\Release\sim.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\simulatorProject\sim\sim\Release\sim.lib" /MACHINE:X86 /SAFESEH Release\Array.obj
+         Release\Cell.obj
+         Release\formulao.obj
+         Release\IO.obj
+         Release\main.obj
+         Release\Mapping.obj
+         Release\NeuroSim.obj
+         Release\Adder.obj
+         Release\DFF.obj
+         Release\formula.obj
+         Release\FunctionUnit.obj
+         Release\Mux.obj
+         Release\ReadCircuit.obj
+         Release\RowDecoder.obj
+         Release\ShiftAdd.obj
+         Release\SubArray.obj
+         Release\SwitchMatrix.obj
+         Release\Technology.obj
+         Release\WLDecoderOutput.obj
+         Release\Param.obj
+         Release\Test.obj
+         Release\Train.obj
+         正在生成代码
+         2 of 481 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         sim.vcxproj -> C:\simulatorProject\sim\sim\Release\sim.exe
+     1>已完成生成项目“C:\simulatorProject\sim\sim\sim\sim.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.48

@@ -1,0 +1,37 @@
+﻿生成启动时间为 2018/2/11 9:45:31。
+     1>项目“C:\simulatorProject\sim\sim\sim\sim.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp
+         main.cpp
+     1>c:\simulatorproject\sim\sim\definition.h(83): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\simulatorproject\sim\sim\definition.h(85): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\simulatorproject\sim\sim\main.cpp(125): warning C4778: 'printf' : unterminated format string '%\n'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\simulatorProject\sim\sim\Debug\sim.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\simulatorProject\sim\sim\Debug\sim.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\simulatorProject\sim\sim\Debug\sim.lib" /MACHINE:X86 Debug\Array.obj
+         Debug\Cell.obj
+         Debug\formulao.obj
+         Debug\IO.obj
+         Debug\main.obj
+         Debug\Mapping.obj
+         Debug\NeuroSim.obj
+         Debug\Adder.obj
+         Debug\DFF.obj
+         Debug\formula.obj
+         Debug\FunctionUnit.obj
+         Debug\Mux.obj
+         Debug\ReadCircuit.obj
+         Debug\RowDecoder.obj
+         Debug\ShiftAdd.obj
+         Debug\SubArray.obj
+         Debug\SwitchMatrix.obj
+         Debug\Technology.obj
+         Debug\WLDecoderOutput.obj
+         Debug\Param.obj
+         Debug\Test.obj
+         Debug\Train.obj
+         sim.vcxproj -> C:\simulatorProject\sim\sim\Debug\sim.exe
+     1>已完成生成项目“C:\simulatorProject\sim\sim\sim\sim.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.86
