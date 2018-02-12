@@ -31,7 +31,8 @@ unzip MNIST_data.zip
 make
 ```
 
-For the usage of this tool, please refer to the manual.
+-For the usage of this tool, please refer to the manual.
+
 
 ## References related to this tool 
 1. P.-Y. Chen, X. Peng, S. Yu, ※NeuroSim+: An Integrated Device-to-Algorithm Framework for Benchmarking Synaptic Devices and Array Architectures,*§ IEEE International Electron Devices Meeting (IEDM), 2017, San Francisco, USA.
